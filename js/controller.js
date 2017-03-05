@@ -1,6 +1,6 @@
 angular.module('RouteControllers', [])
 	.controller('HomeController', function($scope) {
-		$scope.title = "Welcome to your Todo list Paul...!"
+		$scope.title = "Welcome your Todo list Paul!"
 	})
 	.controller('RegisterController', function($scope) {
 		$scope.registrationUser = {};
